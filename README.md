@@ -1,6 +1,6 @@
-# _(Mock) Google Think_
+# _App Name_
 
-#### _{A responsive site using a framework}, {Dec 2, 2016}_
+#### _{A responsive site + short desc.}, {Dec 2, 2016}_
 
 #### By _**Kyle Lange**_
 
@@ -10,15 +10,6 @@
 ## Description
  This week's code review must include:
 
- * Relative units used where appropriate.
-
-* Page(s) respond to at least three different screen sizes.
-
-* Images are fluid.
-
-* Project is in a polished, portfolio-quality state.
-
-
 
 ## Setup/Installation Requirements
 
@@ -27,6 +18,8 @@
 2. View the code by drag-and-dropping the file into your [favorite text editor](https://atom.io)
 
 3. run/check-out the program by dropping the index/html file from your folder into your web browser
+
+Install Sass/Bourbon/Neat:
 
 ## Known Bugs
 
@@ -39,7 +32,7 @@ For questions or comments, please __email  [Kyle here.](baronsintrees@gmail.com)
 ## Technologies Used
 
 * HTML5
-* CSS3 with Bootstrap 3
+* CSS3 with Sass, Bourbon and Neat
 * JavaScript with jQuery 3.1
 
 ### License
