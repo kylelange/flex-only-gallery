@@ -41,3 +41,47 @@ h1,h2 {
   font-family: 'Playfair Display','Gill Sans', 'Gill Sans MT', sans-serif;;
   font-size: 2em;
 }
+
+.headline {
+  background-color: chartreuse;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 90%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .tile1 {
+    background-color: deepskyblue;
+    width: 30%;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tile2 {
+    background-color: chartreuse;
+    width: 30%;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tile3 {
+    background-color: deeppink;
+    width: 30%;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
