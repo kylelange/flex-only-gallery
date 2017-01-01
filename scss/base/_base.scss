@@ -43,45 +43,78 @@ h1,h2 {
 }
 
 .headline {
-  background-color: chartreuse;
+  background-color: lighten(darkslategrey, 40%);
   margin: 0 auto;
   margin-top: 50px;
   width: 90%;
-  height: 120px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media only screen and (max-width: 767px) {
+    h1 {
+      font-size: 1.8em;
+    }
+  }
 }
 
+.columns {
+  @media only screen and (max-width: 991px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  @media only screen and (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .gallery {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  @media only screen and (max-width: 991px) {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 45%;
+  }
+  @media only screen and (max-width: 767px) {
+    width: 95%;
+  }
   .tile1 {
     background-color: deepskyblue;
     width: 30%;
-    height: 200px;
+    height: 250px;
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    @media only screen and (max-width: 991px) {
+      width: 100%;
+    }
   }
   .tile2 {
     background-color: chartreuse;
     width: 30%;
-    height: 200px;
+    height: 250px;
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    @media only screen and (max-width: 991px) {
+      width: 100%;
+    }
   }
   .tile3 {
     background-color: deeppink;
     width: 30%;
-    height: 200px;
+    height: 250px;
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    @media only screen and (max-width: 991px) {
+      width: 100%;
+    }
   }
 }

@@ -44,42 +44,72 @@ h1, h2 {
   font-size: 2em; }
 
 .headline {
-  background-color: chartreuse;
+  background-color: #8ebcbc;
   margin: 0 auto;
   margin-top: 50px;
   width: 90%;
-  height: 120px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center; }
+  @media only screen and (max-width: 767px) {
+    .headline h1 {
+      font-size: 1.8em; } }
+
+@media only screen and (max-width: 991px) {
+  .columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; } }
+@media only screen and (max-width: 767px) {
+  .columns {
+    flex-direction: column;
+    align-items: center; } }
 
 .gallery {
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
+  @media only screen and (max-width: 991px) {
+    .gallery {
+      flex-direction: column;
+      justify-content: space-around;
+      width: 45%; } }
+  @media only screen and (max-width: 767px) {
+    .gallery {
+      width: 95%; } }
   .gallery .tile1 {
     background-color: deepskyblue;
     width: 30%;
-    height: 200px;
+    height: 250px;
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center; }
+    @media only screen and (max-width: 991px) {
+      .gallery .tile1 {
+        width: 100%; } }
   .gallery .tile2 {
     background-color: chartreuse;
     width: 30%;
-    height: 200px;
+    height: 250px;
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center; }
+    @media only screen and (max-width: 991px) {
+      .gallery .tile2 {
+        width: 100%; } }
   .gallery .tile3 {
     background-color: deeppink;
     width: 30%;
-    height: 200px;
+    height: 250px;
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center; }
+    @media only screen and (max-width: 991px) {
+      .gallery .tile3 {
+        width: 100%; } }
 
 /*# sourceMappingURL=application.css.map */
