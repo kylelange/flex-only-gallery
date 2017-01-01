@@ -4,7 +4,7 @@
 
 #### By _**Kyle Lange**_
 
-### See it [live here.](https://kylelange.github.io/flex-only-gallery)
+### See it [live here.](http://codepen.io/kylelange/pen/egORov)
 
 ![screenshot](Screenshot2.png)
 ![screenshot](Screenshot1.png)
